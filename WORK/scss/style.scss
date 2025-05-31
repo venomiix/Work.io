@@ -1,0 +1,41 @@
+
+header {
+  background: linear-gradient(to right, #0d6f5d96, #1987545c); // новий градієнт
+  color: white;
+  padding: 16px 0;
+  font-size: 16px;
+  text-align: center;
+  margin: 0px;
+}
+
+body {
+
+  background: linear-gradient( rgba(207, 208, 241, 0.925));
+
+}
+
+#map, #map2 {
+  width: 44%;
+  height: 450px;
+  margin: 20px;
+  border: 1px solid #ccc;
+  image-rendering: auto;
+}
+
+.maps-container {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  align-items: flex-start;
+}
+
+footer {
+  background: linear-gradient(to right, #fe9a9a54, #ffffff82); // новий градієнт
+  text-align: center;
+  color: antiquewhite;
+  font-size: 15px;
+  padding: 10px 0;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
